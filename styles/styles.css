@@ -8,4 +8,34 @@ body {
   margin: auto;
   text-align: center;
   border: solid 5px black;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+/* Custom Styles */
+
+.maincontainer {
+  /*border: 1px solid red;*/
+  max-width: 375px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: white;
+}
+
+.summarycontainer {
+  margin: auto;
+  width: 100%;
+}
+.summarycontainer > p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0 ;
 }
