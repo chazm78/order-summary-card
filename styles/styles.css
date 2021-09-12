@@ -7,7 +7,6 @@
 body {
   margin: auto;
   text-align: center;
-  border: solid 5px black;
   background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
