@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](images/order-summary-card-screenshot.png)
+![screenshot](images/screenshot.png)
 
 
 
