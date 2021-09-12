@@ -12,6 +12,17 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: hsl(225, 100%, 94%);
+  min-width: 375px;
+}
+
+strong {
+  color: hsl(223, 47%, 23%);
+
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
 }
 
 a {
@@ -29,15 +40,15 @@ a:hover {
 /* Custom Styles */
 
 .maincontainer {
-  /*border: 1px solid red;*/
   max-width: 375px;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
   background-color: hsl(0,0%,100%);
-  border-radius: 15px;
-  height:auto;
+  border-radius: 20px;
+  height: auto;
   padding-bottom: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .summarycontainer {
@@ -52,25 +63,55 @@ a:hover {
 .hero {
   width: 100%;
   height: auto;
-  border-radius: 15px 15px 0 0 ;
+  border-radius: 20px 20px 0 0 ;
 }
 
-/* plancontainer goes below */
+.plancontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
 
-/* plancontainer goes above */
+.item1 {
+  margin-left: 5%;
+}
+.item2 {
+  padding-right: 15%;
+  font-size: 14px;
+}
+.item3 {
+  margin-right: 5%;
+}
+a.item3 {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 14px;
+}
+a.item3:hover {
+  text-decoration: none;
+}
 
 .topbtn {
   width: 80%;
   height: 50px;
   background-color: hsl(245, 75%, 52%);
   color: hsl(0,0%,100%);
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
   font-weight: 700;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .topbtn:hover {
@@ -82,4 +123,12 @@ a:hover {
   margin: 10%;
   position: relative;
   bottom: 10%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
