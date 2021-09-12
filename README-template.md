@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/chazm78/order-summary-card)
-- Live Site URL: [Add live site URL here](http://order-summary-card-eta.vercel.app/)
+- Solution URL: [github](https://github.com/chazm78/order-summary-card)
+- Live Site URL: [vercel](http://order-summary-card-eta.vercel.app/)
 
 
 
